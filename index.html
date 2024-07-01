@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Atlas</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Peri-Urbanization Dynamics Atlas</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#kitengela">Kitengela, Kenya</a></li>
+            <li><a href="#mankeweng">Mankeweng, South Africa</a></li>
+            <li><a href="#rntheim">Rntheim, Germany</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="kitengela">
+            <h2>Kitengela, Kenya</h2>
+            <div id="kitengela-map" class="map"></div>
+            <div id="kitengela-charts" class="charts"></div>
+        </section>
+        <section id="mankeweng">
+            <h2>Mankeweng, South Africa</h2>
+            <div id="mankeweng-map" class="map"></div>
+            <div id="mankeweng-charts" class="charts"></div>
+        </section>
+        <section id="rntheim">
+            <h2>Rntheim, Germany</h2>
+            <div id="rntheim-map" class="map"></div>
+            <div id="rntheim-charts" class="charts"></div>
+        </section>
+    </main>
+    <script src="libs/d3.min.js"></script>
+    <script src="libs/cesium.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/charts.js"></script>
+    <script src="scripts/map.js"></script>
+</body>
+</html>
